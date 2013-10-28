@@ -69,7 +69,6 @@ public class WordLibraryTest extends TestCase {
      * Tests whether given anagram represents the word.
      * @param clearWord The word in clear text
      * @param scrambledWord Scrambled version of the word
-     * @return true if the scrambledWord is correct anagram of clearWord
      */
     private boolean isAnagram(String clearWord, String scrambledWord) {
         char[] clearArray = clearWord.toCharArray();
