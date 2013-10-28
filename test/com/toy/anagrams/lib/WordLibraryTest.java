@@ -51,7 +51,6 @@ public class WordLibraryTest extends TestCase {
     
 
     /**
-     * Test of {@link WordLibrary#isCorrect}.
      */
     public void testIsCorrect() {
         System.out.println("Yee HaH!");
