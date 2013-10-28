@@ -54,6 +54,7 @@ public class WordLibraryTest extends TestCase {
      * Test of {@link WordLibrary#isCorrect}.
      */
     public void testIsCorrect() {
+        System.out.println("Yee HaH!");
         for (int i = 0; i < wordLibrary.getSize(); i++) {
             String clearWord = wordLibrary.getWord(i);
             String scrambledWord = wordLibrary.getScrambledWord(i);
